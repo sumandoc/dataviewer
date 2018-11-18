@@ -3,7 +3,7 @@ MAINTAINER Suman Khanal "suman81765@gmail.com"
 
 
 # basic shiny functionality
-RUN R -e "install.packages(c('shiny', 'rmarkdown','rio','readxl','DT'), repos='https://cloud.r-project.org/')"
+RUN R -e "install.packages(c('rmarkdown','rio','readxl','DT'), repos='https://cloud.r-project.org/')"
 
 
 # copy the app to the image
