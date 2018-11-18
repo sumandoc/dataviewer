@@ -9,12 +9,12 @@
 
 library(shiny)
 
-# Define UI for application that draws a histogram
+# Define UI for application
 shinyUI(fluidPage(
     # Application title
     titlePanel("Data Viewer"),
     
-    # Sidebar with a slider input for number of bins
+    # Sidebar with a file input
     sidebarLayout(sidebarPanel(
         fileInput(
             "fls",
