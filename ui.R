@@ -19,9 +19,7 @@ shinyUI(fluidPage(
         fileInput(
             "fls",
             "Select data: csv or spss or xlsx",
-            buttonLabel = "Select file",
-            accept = c(".csv", ".xlsx")
-        )
+            buttonLabel = "Select file")
     ),
     
     mainPanel(DT::dataTableOutput("dtable")))
