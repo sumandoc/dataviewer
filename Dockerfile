@@ -8,7 +8,7 @@ RUN R -e "install.packages(c('shiny', 'rmarkdown','rio','readxl','DT'), repos='h
 
 # copy the app to the image
 RUN mkdir /root/dataviewer
-COPY ui.R server.R /root/dataviewer
+COPY ui.R server.R /root/dataviewer/
 
 EXPOSE 3838
 
