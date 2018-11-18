@@ -1,4 +1,4 @@
-FROM rocker/tidyverse
+FROM rocker/shiny
 MAINTAINER Suman Khanal "suman81765@gmail.com"
 
 
